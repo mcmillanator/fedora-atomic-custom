@@ -26,6 +26,7 @@ dnf5 install -y \
 	python3-pip \
 	python3-setuptools \
 	ripgrep \
+	the_silver_searcher \
 	tmux \
 	zoxide \
 	zsh
