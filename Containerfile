@@ -15,7 +15,9 @@ RUN --mount=type=bind,from=ctx,source=/,target=/ctx \
     --mount=type=cache,dst=/var/log \
     --mount=type=tmpfs,dst=/tmp \
     /ctx/build.sh
-    
+
+RUN mkdir "/etc/docker"
+COPY /ctx/docker/daemon.json /etc/docker/daemon.json
 ### LINTING
 ## Verify final image and contents are correct.
 RUN bootc container lint
