@@ -3,7 +3,7 @@ FROM scratch AS ctx
 COPY build_files /
 
 # Base Image
-FROM quay.io/fedora/fedora-sway-atomic:42
+FROM quay.io/fedora/fedora-kinoite:42
 
 
 ### MODIFICATIONS
