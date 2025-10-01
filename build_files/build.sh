@@ -12,6 +12,7 @@ set -ouex pipefail
 # this installs a package from fedora repos
 dnf copr enable -y dejan/lazygit
 dnf5 install -y \
+	alacritty \
 	bind \
 	docker \
 	docker-compose \
