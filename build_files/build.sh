@@ -23,6 +23,7 @@ dnf5 install -y \
 	just \
 	git \
 	lazygit \
+	lnav \
 	mackup \
 	neovim \
 	nodejs \
