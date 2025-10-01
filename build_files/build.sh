@@ -17,6 +17,7 @@ dnf5 install -y \
 	btop \
 	docker \
 	docker-compose \
+	fastfetch \
 	fzf \
 	just \
 	git \
