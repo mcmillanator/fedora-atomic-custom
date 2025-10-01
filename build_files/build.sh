@@ -20,8 +20,8 @@ dnf5 install -y \
 	fastfetch \
 	fd-find \
 	fzf \
-	just \
 	git \
+	just \
 	lazygit \
 	lnav \
 	mackup \
