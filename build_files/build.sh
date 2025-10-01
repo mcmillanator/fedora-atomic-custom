@@ -14,6 +14,7 @@ dnf copr enable -y dejan/lazygit
 dnf5 install -y \
 	alacritty \
 	bind \
+	btop \
 	docker \
 	docker-compose \
 	fzf \
