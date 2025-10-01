@@ -11,6 +11,8 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf copr enable -y dejan/lazygit
+dnf5 install -y dnf5-plugins
+dnf5 config-manager addrepo -y --from-repofile=https://cli.github.com/packages/rpm/gh-cli.repo
 dnf5 install -y \
 	alacritty \
 	bind \
@@ -36,6 +38,7 @@ dnf5 install -y \
 	zoxide \
 	zsh
 
+dnf5 install -y gh --repo gh-cli
 
 # Use a COPR Example:
 #
