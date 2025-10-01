@@ -18,6 +18,7 @@ dnf5 install -y \
 	docker \
 	docker-compose \
 	fastfetch \
+	fd-find \
 	fzf \
 	just \
 	git \
